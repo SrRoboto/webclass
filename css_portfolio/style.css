@@ -1,0 +1,17 @@
+a {
+  margin: 20px;
+  display: inline-block;
+}
+
+img {
+  max-width: 100px;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a::before {
+  content: "-->";
+}

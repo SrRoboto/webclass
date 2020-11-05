@@ -1,0 +1,37 @@
+.black-background {
+    background-color: black;
+}
+h2 {
+    color: white;
+    position: relative;
+    left: 800px;
+    top: 50px;
+}
+#ehh {
+    transform: scale(.5);
+    position: relative;
+    left: 650px;
+    top: 40px;
+}
+#closed {
+    position: relative;
+    right: 200px;
+    top: 300px;
+}
+#closed:hover {
+    transform: scale(1.5);
+}
+#open {
+    position: relative;
+    right: 150px;
+    top: 300px;
+}
+#open:hover {
+    transform: scale(1.5)
+}
+#uhoh {
+    transform: scale(3);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}

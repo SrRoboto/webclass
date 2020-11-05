@@ -1,0 +1,52 @@
+.father {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.container {
+   border-radius: 15px;
+   background: rgb(15, 13, 175);
+   width: 500px;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+.container-1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+} 
+.container-2 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+}
+.container-3 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+}
+.container-4 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+}
+.container-5 {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
+}
+.app {
+   width: 100px;
+   height: 100px;
+   background: cyan;
+   margin: 10px;
+   border-radius: 15px;
+}

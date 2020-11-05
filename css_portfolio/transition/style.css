@@ -1,0 +1,9 @@
+#red {
+   height: 100px;
+   width: 50px;
+   background: red;
+   transition: 5s;
+}
+#red:hover {
+    width: 500px;
+}

@@ -1,0 +1,37 @@
+h1 {
+    color: rgba(255, 0, 0, 0.883);
+}
+#outside {
+    position: relative;
+    bottom: 40rem;
+
+    height: 245px;
+    border: 5px solid #000;
+    padding: 5px;
+    z-index: 1;
+
+    animation-name: blinking;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#happy-dog {
+    transform: scale(.25);
+    position: relative;
+    right: 10rem;
+    bottom: 13rem;
+    z-index: 2;
+}
+@keyframes blinking {
+    0% {
+    background-color:red;
+        width: 0rem;
+    }
+    50% {
+        background-color: red;
+        width: 6rem;
+    }
+    100% {
+        background-color: red;
+        width: 15rem;
+    }
+}
