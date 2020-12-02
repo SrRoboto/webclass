@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+
 body {
   background: black;
+}
+
+#surprise {
+  background-color: yellow;
 }
 
 .modal {
@@ -28,8 +33,8 @@ body {
 .modal__close {
   position: absolute;
   font-size: clamp(16px, 8vmin, 30px);
-  right: 4%;
-  top: 0;
+  right: 10%;
+  top: 35%;
   transform: rotateZ(45deg);
   font-weight: 800;
 }
@@ -44,7 +49,7 @@ body {
   padding: 1.5em;
   font-size: clamp(12px, 6vmin, 24px);
   font-family: 'Cutive Mono', monospace;
-  background: lightpink;
+  background: red;
   border-radius: .5em;
-  border: 3px solid lightblue;
+  border: 3px solid blue;
 }
