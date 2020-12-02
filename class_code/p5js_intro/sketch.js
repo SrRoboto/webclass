@@ -6,12 +6,10 @@ let myColor;
 
 // setup() only runs once//
 function setup() {
-  createCanvas(innerWidth, innerHeight);
-  cnv.parent("#sketch-parent");
+  let cnv = createCanvas(innerWidth, innerHeight);
+  cnv.parent("#sketch");
   background(255, 100, 255)
   myColor = color(0, 255, 0);
-  let cnv = createCanvas(400, 400)
-
   noCursor();
 }
 
